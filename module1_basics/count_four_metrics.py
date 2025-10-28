@@ -158,6 +158,8 @@ def count_c_loc(lines):
     return loc
 
 
+
+
 def count_python_fan(lines):
     fan_in, fan_out = 0, 0
     for line in lines:

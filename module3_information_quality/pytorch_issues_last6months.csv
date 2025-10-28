@@ -1,0 +1,274 @@
+id,number,title,state,user,created_at,updated_at,comments,url
+3555281812,166295,"Feedback about torch.nn.HingeEmbeddingLoss, HuberLoss, SmoothL1Loss, SoftMarginLoss, MultiLabelSoftMarginLoss Need adding an example",open,vishalgoyal316,2025-10-27T06:36:19Z,2025-10-27T06:37:24Z,0,https://github.com/pytorch/pytorch/issues/166295
+3555128279,166291,"""FSDP does not support non-contiguous parameters yet"" prevents using channels-last convolutions",open,ad8e,2025-10-27T05:33:41Z,2025-10-27T05:33:41Z,0,https://github.com/pytorch/pytorch/issues/166291
+3554963720,166290,[Fuzzer][Eager/Compile Divergence] IndexError: list index out of range,open,bobrenjc93,2025-10-27T04:07:46Z,2025-10-27T04:07:51Z,0,https://github.com/pytorch/pytorch/issues/166290
+3554828538,166286,unnecessary warning triggered by inductor in pytorch 2.9,open,youkaichao,2025-10-27T02:46:39Z,2025-10-27T02:47:09Z,1,https://github.com/pytorch/pytorch/issues/166286
+3554691735,166282,"Why does my PR still show ""Missing CLA Authorization"" even though I have already signed the CLA document?",open,wenlinchong17-web,2025-10-27T01:19:21Z,2025-10-27T01:19:21Z,0,https://github.com/pytorch/pytorch/issues/166282
+3554512615,166279,[Fuzzer][Eager/Compile Divergence] assert len(input_size) == len(new_size),open,bobrenjc93,2025-10-26T22:31:41Z,2025-10-26T22:31:46Z,0,https://github.com/pytorch/pytorch/issues/166279
+3554419852,166270,[Fuzzer][Eager/Compile Divergence] assert len(self.stride) == len(order),open,bobrenjc93,2025-10-26T20:30:52Z,2025-10-26T20:30:58Z,0,https://github.com/pytorch/pytorch/issues/166270
+3554391238,166268,GLOBAL_STATE: ___check_global_state() is insufficient to determine global state from tlparse,open,ezyang,2025-10-26T19:56:03Z,2025-10-26T19:56:03Z,0,https://github.com/pytorch/pytorch/issues/166268
+3554380351,166267,Dynamo should be able to Dynamo trace the Dynamo graph (dynamo_output_graph) it creates,open,ezyang,2025-10-26T19:48:27Z,2025-10-26T20:19:13Z,1,https://github.com/pytorch/pytorch/issues/166267
+3553850071,166261,"Build VLLM In The CUDA13,Run Error",closed,tieshulin,2025-10-26T12:14:45Z,2025-10-26T13:29:24Z,1,https://github.com/pytorch/pytorch/issues/166261
+3553466460,166256,The design of register_fork_handler_for_device_init for poison fork,open,FFFrog,2025-10-26T08:17:45Z,2025-10-27T03:23:42Z,2,https://github.com/pytorch/pytorch/issues/166256
+3553354229,166253,torch.full give wrong result with torch.compile and dtype=torch.float64,open,SUSYUSTC,2025-10-26T06:42:57Z,2025-10-26T06:42:57Z,0,https://github.com/pytorch/pytorch/issues/166253
+3553216761,166245,"[Fuzzer][Eager/Compile Divergence] assert self.shape_env.guard_or_defer_runtime_assert(expr, ""guard_equals"")",open,bobrenjc93,2025-10-26T02:57:30Z,2025-10-26T02:57:37Z,0,https://github.com/pytorch/pytorch/issues/166245
+3553203727,166243,[BugReport] Exponential distribution may generate zero values on CPU backend,open,lingebeng,2025-10-26T02:34:06Z,2025-10-26T11:20:14Z,1,https://github.com/pytorch/pytorch/issues/166243
+3552627744,166238,[Dynamo][BUG] Regression about `collections.defaultdict` creation,open,XuehaiPan,2025-10-25T15:26:06Z,2025-10-26T12:00:47Z,4,https://github.com/pytorch/pytorch/issues/166238
+3552591003,166237,[MPS] index_copy leads to incorrect values,closed,Isalia20,2025-10-25T14:45:12Z,2025-10-25T15:38:11Z,2,https://github.com/pytorch/pytorch/issues/166237
+3552308414,166234,"!handles_.at(i) INTERNAL ASSERT FAILED at ""/pytorch/c10/cuda/CUDACachingAllocator.cpp"":430",open,RonnyAI,2025-10-25T10:30:44Z,2025-10-25T10:31:46Z,0,https://github.com/pytorch/pytorch/issues/166234
+3552142742,166233,"license: Is it possible to stop using Conda in the Dockerfile? Due to Conda’s licensing issues, many companies have already received legal warning letters.",open,WangxuP,2025-10-25T08:50:40Z,2025-10-25T08:50:40Z,0,https://github.com/pytorch/pytorch/issues/166233
+3551595812,166219,Why are there so many warnings when building the C++ libtorch project? How to resolve it?,open,hyl20012,2025-10-25T03:09:34Z,2025-10-25T15:39:20Z,0,https://github.com/pytorch/pytorch/issues/166219
+3551390756,166212,Wrong reduction hint generated for an inner reduction,open,shunting314,2025-10-25T00:21:45Z,2025-10-25T00:22:39Z,0,https://github.com/pytorch/pytorch/issues/166212
+3551350377,166211,"numeric bug in CUDNN_ATTENTION, NaN",open,ad8e,2025-10-24T23:59:49Z,2025-10-25T02:57:52Z,0,https://github.com/pytorch/pytorch/issues/166211
+3551298018,166209,Add helper functions to massage common 3D+ params into 2D for Muon,open,janeyx99,2025-10-24T23:26:02Z,2025-10-25T00:10:58Z,4,https://github.com/pytorch/pytorch/issues/166209
+3551293453,166208,OptimizerDict - design and write an abstraction for a single Optim that'd control multiple optimizers,open,janeyx99,2025-10-24T23:21:59Z,2025-10-25T10:35:53Z,2,https://github.com/pytorch/pytorch/issues/166208
+3551211117,166205,Enable Graph Capture & Profiler Integration for PrivateUse1 Backends,open,trajepl,2025-10-24T22:32:13Z,2025-10-25T03:55:19Z,1,https://github.com/pytorch/pytorch/issues/166205
+3550791350,166186,We should have an env var to turn off all dynamic shapes,open,bobrenjc93,2025-10-24T19:41:43Z,2025-10-26T21:15:42Z,3,https://github.com/pytorch/pytorch/issues/166186
+3550640794,166180,AOTI _register_aoti_cleanup line 47,open,christopher5106,2025-10-24T18:58:27Z,2025-10-24T19:01:28Z,0,https://github.com/pytorch/pytorch/issues/166180
+3550424137,166176,[dynamo] another 3.11 resume codegen KeyError,open,williamwen42,2025-10-24T17:46:23Z,2025-10-24T17:53:34Z,0,https://github.com/pytorch/pytorch/issues/166176
+3550397097,166173,"dynamo should expose ""are there any side effects in my code"" to vLLM",open,zou3519,2025-10-24T17:35:09Z,2025-10-24T17:35:19Z,0,https://github.com/pytorch/pytorch/issues/166173
+3550220216,166169,investigate vLLM llama4 maverick regression in 2.9,open,zou3519,2025-10-24T16:36:37Z,2025-10-24T16:37:17Z,0,https://github.com/pytorch/pytorch/issues/166169
+3550029691,166167,"Proposal: include 'extras packages' for supported versions of PyTorch-adjacent tools (e.g., numpy, onnx)",open,nickfraser,2025-10-24T15:40:10Z,2025-10-24T17:58:06Z,0,https://github.com/pytorch/pytorch/issues/166167
+3549906341,166166,MultiheadAttention fast_path is substantially less efficient than the alternative,open,robertdvdk,2025-10-24T15:03:18Z,2025-10-24T15:03:51Z,0,https://github.com/pytorch/pytorch/issues/166166
+3549259388,166163,ONNX export fails for torchvision CNN architectures,open,sammlapp,2025-10-24T12:31:43Z,2025-10-24T18:48:19Z,3,https://github.com/pytorch/pytorch/issues/166163
+3548363165,166157,[RFC] Add Basic Statistics to Device Memory in OpenReg,open,licy666,2025-10-24T08:58:17Z,2025-10-24T08:58:17Z,0,https://github.com/pytorch/pytorch/issues/166157
+3548147337,166156,Parameter.to_local() will make parameter a normal tensor,open,junjzhang,2025-10-24T08:01:54Z,2025-10-24T08:01:54Z,0,https://github.com/pytorch/pytorch/issues/166156
+3547433838,166153,[Inductor][AO] Flex Attention with AO hit the recompile limit on `v2.9.0`,open,hoshibara,2025-10-24T03:10:49Z,2025-10-24T03:13:24Z,0,https://github.com/pytorch/pytorch/issues/166153
+3547145832,166152,Simplify SingletonOrSharedTypePtr's implementation by careful use of shared_ptr's aliasing constructor,open,swolchok,2025-10-24T00:50:04Z,2025-10-24T17:59:06Z,0,https://github.com/pytorch/pytorch/issues/166152
+3546232954,166143,Feedback about torch.unique,open,doronator,2025-10-23T19:25:56Z,2025-10-23T20:46:09Z,1,https://github.com/pytorch/pytorch/issues/166143
+3545542151,166135,Stack comments in aot_joint_graph should indicate if it's backwards,open,ezyang,2025-10-23T16:30:29Z,2025-10-23T18:42:40Z,0,https://github.com/pytorch/pytorch/issues/166135
+3545120371,166131,Return a view from tensor(requires_grad=False) in autograd function may cause incorrect requires_grad attribute.,open,Ghost-LZW,2025-10-23T15:07:17Z,2025-10-24T03:36:48Z,2,https://github.com/pytorch/pytorch/issues/166131
+3543784049,166124,[DTensor] squeeze() causes incorrect dimension when sharded dimension size equals mesh size.,open,mansiag05,2025-10-23T09:00:59Z,2025-10-23T14:43:34Z,1,https://github.com/pytorch/pytorch/issues/166124
+3543773004,166123,"Can't compile torch-cublas-hgemm project in Windows on a torch newer than 2.8.0, I get complains involving compiled_autograd.h",open,jovan2009,2025-10-23T08:57:53Z,2025-10-23T14:41:27Z,0,https://github.com/pytorch/pytorch/issues/166123
+3543748454,166122,4x performance regression for 3D convs with AMP on torch 2.9.0,open,FabianIsensee,2025-10-23T08:49:57Z,2025-10-24T06:43:44Z,8,https://github.com/pytorch/pytorch/issues/166122
+3543746322,166121,[profile] profile_memory doesn't work if _ExperimentalConfig(profile_all_threads = True) is set,open,huxiao0,2025-10-23T08:49:19Z,2025-10-23T14:47:31Z,0,https://github.com/pytorch/pytorch/issues/166121
+3543664008,166120,Unknown CUDA arch 10.1 when building C++ extension against 2.9.0+cu128,open,SuibianP,2025-10-23T08:23:03Z,2025-10-23T16:24:07Z,1,https://github.com/pytorch/pytorch/issues/166120
+3543550332,166117,Device mismatch in scaled_dot_product_attention docstring example,open,Danielohayon,2025-10-23T07:44:19Z,2025-10-25T21:44:18Z,2,https://github.com/pytorch/pytorch/issues/166117
+3543512226,166116,[CCA] CUDACachingAllocator always release physical memory handle when the expandable segment unmaps.,open,PHLens,2025-10-23T07:30:24Z,2025-10-23T18:40:49Z,1,https://github.com/pytorch/pytorch/issues/166116
+3543488445,166114,[BUG]interpolate operator triggers severe performance degradation when enabling deterministic computation,open,liurongfang,2025-10-23T07:22:37Z,2025-10-25T05:51:19Z,0,https://github.com/pytorch/pytorch/issues/166114
+3543198475,166110,"ConversionError: Error when translating node %trunc_12 : [num_users=4] = call_function[target=math.trunc](args = (%mul_104,), kwargs = {})",open,happyme531,2025-10-23T05:23:18Z,2025-10-23T20:01:24Z,0,https://github.com/pytorch/pytorch/issues/166110
+3542899871,166108,Add back ROCm trunk integration tests,open,functionstackx,2025-10-23T02:21:28Z,2025-10-23T22:10:11Z,0,https://github.com/pytorch/pytorch/issues/166108
+3542866667,166106,[Feature][BUG] need support for DispatchKey.AutocastXPU,open,xiaohoua,2025-10-23T01:58:34Z,2025-10-23T14:47:11Z,1,https://github.com/pytorch/pytorch/issues/166106
+3542711937,166104,torch.normal generate a cpu tensor even though I set default device is cuda,closed,liuqi45,2025-10-23T00:07:22Z,2025-10-23T18:47:20Z,2,https://github.com/pytorch/pytorch/issues/166104
+3542634805,166101,Compiling libtorch requires GLIBC_2.35,open,BonsonW,2025-10-22T23:17:23Z,2025-10-24T05:27:17Z,2,https://github.com/pytorch/pytorch/issues/166101
+3542444333,166093,aoti cross compile for windows failed with undefined reference to WinMain,open,lanluo-nvidia,2025-10-22T21:31:24Z,2025-10-23T16:01:06Z,3,https://github.com/pytorch/pytorch/issues/166093
+3542345368,166089,Support `torch.linalg.householder_product` for MPS,closed,kurtamohler,2025-10-22T20:50:13Z,2025-10-24T21:13:59Z,0,https://github.com/pytorch/pytorch/issues/166089
+3542317015,166087,[cpu][aarch64] Dual libgomp runtimes with torch.compile,open,fadara01,2025-10-22T20:38:06Z,2025-10-24T08:16:56Z,0,https://github.com/pytorch/pytorch/issues/166087
+3541799166,166080,Feature Request: masked convolution,open,Mark799,2025-10-22T17:57:20Z,2025-10-27T08:31:07Z,2,https://github.com/pytorch/pytorch/issues/166080
+3541315319,166072,UNSTABLE trunk / linux-jammy-py3-clang12-executorch / test (executorch),open,clee2000,2025-10-22T15:19:27Z,2025-10-22T16:15:20Z,1,https://github.com/pytorch/pytorch/issues/166072
+3541075986,166070,flex_attention.create_block_mask CUDA: an illegal memory access was encountered,open,kofinandi,2025-10-22T14:18:05Z,2025-10-22T23:32:45Z,1,https://github.com/pytorch/pytorch/issues/166070
+3541047827,166069,Feature Request: torch.nn.DiagonalConv2d,closed,Mark799,2025-10-22T14:11:58Z,2025-10-22T17:59:04Z,1,https://github.com/pytorch/pytorch/issues/166069
+3540988392,166068,[ROCm] `packaging.version.parse(torch.version.hip)` yields `InvalidVersion: Invalid version: '6.4.43482-0f2d60242'` while `version.parse(torch.version.cuda)` succeeds,open,fxmarty-amd,2025-10-22T13:55:56Z,2025-10-22T23:48:27Z,0,https://github.com/pytorch/pytorch/issues/166068
+3540783142,166067,DISABLED test_nan_assert_float64 (__main__.ProcessGroupNCCLGroupTest),open,pytorch-bot[bot],2025-10-22T13:01:30Z,2025-10-23T00:16:23Z,2,https://github.com/pytorch/pytorch/issues/166067
+3540782988,166066,DISABLED test_nan_assert_bfloat16 (__main__.ProcessGroupNCCLGroupTest),open,pytorch-bot[bot],2025-10-22T13:01:27Z,2025-10-22T16:16:52Z,1,https://github.com/pytorch/pytorch/issues/166066
+3540638109,166064,Add submodul for `six`,open,Flamefire,2025-10-22T12:21:34Z,2025-10-22T16:16:30Z,1,https://github.com/pytorch/pytorch/issues/166064
+3540142599,166061,Leakage when using torch.compile in multiprocessor code,open,intexcor,2025-10-22T10:05:24Z,2025-10-22T10:05:28Z,0,https://github.com/pytorch/pytorch/issues/166061
+3540130352,166060,Support for NVIDIA RTX 5090 (CUDA SM_120),closed,bartoszwojtas,2025-10-22T10:02:27Z,2025-10-22T14:43:40Z,2,https://github.com/pytorch/pytorch/issues/166060
+3539691208,166057,[RISC-V][RVV][GCC 14.2] GCC ICE when building DepthwiseConvKernel.cpp,closed,zhangjian29,2025-10-22T08:30:00Z,2025-10-22T16:38:30Z,0,https://github.com/pytorch/pytorch/issues/166057
+3539265476,166054,Add XLA to `at::accelerator::getAccelerator` and `at::accelerator::isAccelerator`,open,iwknow,2025-10-22T06:12:48Z,2025-10-22T23:47:56Z,0,https://github.com/pytorch/pytorch/issues/166054
+3538535872,166042,"[Fuzzer][Eager/Compile Divergence] assert ""int"" in str(indices.get_dtype())",open,bobrenjc93,2025-10-21T23:46:20Z,2025-10-21T23:46:25Z,0,https://github.com/pytorch/pytorch/issues/166042
+3538327604,166034,Partitioning fx graph according instruction gives errors,closed,cehongwang,2025-10-21T22:07:36Z,2025-10-21T22:44:17Z,0,https://github.com/pytorch/pytorch/issues/166034
+3538308489,166033,[dynamo] Key error in bytecode_transformation,open,williamwen42,2025-10-21T21:58:54Z,2025-10-21T21:58:58Z,0,https://github.com/pytorch/pytorch/issues/166033
+3538196425,166027,DISABLED test_blockwise_nvfp4_with_global_scale_512_128_256_cuda (__main__.TestFP8MatmulCUDA),closed,jeffdaily,2025-10-21T21:18:54Z,2025-10-22T04:23:10Z,1,https://github.com/pytorch/pytorch/issues/166027
+3537902102,166020,[doc] Clarify that torch.mean doesn't support integer dtypes like torch.long,closed,har5hdeep5harma,2025-10-21T19:27:50Z,2025-10-21T22:13:29Z,1,https://github.com/pytorch/pytorch/issues/166020
+3537806505,166014,Make Inductor Fallback Nodes Less Reliant on Invariants from Functionalization / AOT Autograd,open,eellison,2025-10-21T18:59:09Z,2025-10-21T18:59:31Z,0,https://github.com/pytorch/pytorch/issues/166014
+3537791792,166012,tlparse entries on cache hit and not are inconsistent,open,ezyang,2025-10-21T18:54:22Z,2025-10-22T23:45:42Z,0,https://github.com/pytorch/pytorch/issues/166012
+3537791406,166011,cusparse deprecation warning in CUDA 13.0 inductor build,open,tinglvv,2025-10-21T18:54:13Z,2025-10-21T19:28:25Z,1,https://github.com/pytorch/pytorch/issues/166011
+3537742653,166009,[Inductor] DCE breaks with fallback operators that produce aliases + mutation,open,eellison,2025-10-21T18:39:27Z,2025-10-21T18:45:41Z,0,https://github.com/pytorch/pytorch/issues/166009
+3537454884,166004,[CUDA] torch.linalg.eigh input size reduced since PyTorch 2.8.0,open,martinmCGG,2025-10-21T17:10:36Z,2025-10-24T13:18:40Z,1,https://github.com/pytorch/pytorch/issues/166004
+3537323133,166001,`torch.onnx.export`'s `dynamic_shape` should take renamed inputs into account,open,mqudsi,2025-10-21T16:36:24Z,2025-10-22T20:00:53Z,1,https://github.com/pytorch/pytorch/issues/166001
+3537235107,165999,[RFC] Improve the performance of `associative_scan()` with `cuda.compute`,open,NaderAlAwar,2025-10-21T16:13:25Z,2025-10-23T20:28:04Z,0,https://github.com/pytorch/pytorch/issues/165999
+3537210834,165998,UNSTABLE rocm / linux-jammy-rocm-py3.10 / test (default),open,jithunnair-amd,2025-10-21T16:07:01Z,2025-10-21T22:18:05Z,1,https://github.com/pytorch/pytorch/issues/165998
+3536716948,165992,AttributeError: module 'triton.language.math' has no attribute 'tanh',open,longRookie,2025-10-21T14:00:45Z,2025-10-23T01:33:28Z,1,https://github.com/pytorch/pytorch/issues/165992
+3536451936,165988,DISABLED test_compiler_collectives_type_mismatch (__main__.TestMultiProc),open,pytorch-bot[bot],2025-10-21T13:00:31Z,2025-10-21T13:00:35Z,1,https://github.com/pytorch/pytorch/issues/165988
+3536292109,165987,`triu_/tril_` ignores memory overlaps which can lead to silent correctness issues,open,nikitaved,2025-10-21T12:19:30Z,2025-10-21T14:54:40Z,1,https://github.com/pytorch/pytorch/issues/165987
+3536127196,165985,Can I provide a Chinese version of the readme file to submit,open,wenlinchong17-web,2025-10-21T11:32:28Z,2025-10-22T23:44:44Z,0,https://github.com/pytorch/pytorch/issues/165985
+3535711019,165982,LELU Activation Function: Proposal for PyTorch,open,falseywinchnet,2025-10-21T09:20:51Z,2025-10-23T12:33:36Z,3,https://github.com/pytorch/pytorch/issues/165982
+3535703292,165981,Fails to use side_effect op inside torch.cond branch,open,yyp0,2025-10-21T09:18:47Z,2025-10-22T23:47:49Z,0,https://github.com/pytorch/pytorch/issues/165981
+3535543806,165976,Internal Assert Failure with Specific Large Padding Value in torch.nn.Conv3d,open,qiqicliff,2025-10-21T08:33:42Z,2025-10-21T14:27:55Z,0,https://github.com/pytorch/pytorch/issues/165976
+3534828469,165966,DISABLED test_triu_tril_large_matrix_64bit_cuda (__main__.TestLinalgCUDA),open,jeffdaily,2025-10-21T04:29:45Z,2025-10-21T14:18:42Z,1,https://github.com/pytorch/pytorch/issues/165966
+3534780057,165964,"torch.ones(1, device=""cuda"") fails with CUDA error: out of memory on RTX 5090",closed,Anplus,2025-10-21T04:02:17Z,2025-10-21T18:49:13Z,2,https://github.com/pytorch/pytorch/issues/165964
+3534669902,165959,"torch.distributed.DistStoreError: use_libuv was requested but PyTorch was built without libuv support, run with USE_LIBUV=0 to disable it.",open,justwangweimin,2025-10-21T03:04:48Z,2025-10-23T00:15:30Z,1,https://github.com/pytorch/pytorch/issues/165959
+3534382667,165951,_dynamo_graph_capture_for_export + aot_export_joint_with_descriptors doesn't work with kwargs,closed,yiming0416,2025-10-21T00:17:37Z,2025-10-21T21:29:09Z,1,https://github.com/pytorch/pytorch/issues/165951
+3534362205,165949,DISABLED test_profiler_optimizer_single_tensor_pattern (__main__.TestExperimentalUtils),open,clee2000,2025-10-21T00:07:21Z,2025-10-21T00:07:31Z,1,https://github.com/pytorch/pytorch/issues/165949
+3534351496,165948,_dynamo_graph_capture_for_export cannot trace flex_attention with block_mask kwarg,closed,yiming0416,2025-10-21T00:01:29Z,2025-10-25T03:17:26Z,2,https://github.com/pytorch/pytorch/issues/165948
+3534279962,165944,Support Batchsize 0 for flash attention by early return,open,drisspg,2025-10-20T23:28:13Z,2025-10-20T23:28:19Z,0,https://github.com/pytorch/pytorch/issues/165944
+3533892524,165933,[Distributed] fully_shard: support no_shard (ddp) strategy?,open,rohan-varma,2025-10-20T20:48:14Z,2025-10-22T14:44:13Z,0,https://github.com/pytorch/pytorch/issues/165933
+3533835191,165929,Numerical mismatch b/w eager & aot_eager_decomp_partition backend in SegFormer layer (2.9.0),open,pianpwk,2025-10-20T20:27:55Z,2025-10-21T14:27:18Z,1,https://github.com/pytorch/pytorch/issues/165929
+3533594539,165923,[Dtensor] torch.all() uses sum reduction incorrectly,open,stmcgovern,2025-10-20T19:08:03Z,2025-10-21T00:59:42Z,0,https://github.com/pytorch/pytorch/issues/165923
+3533003242,165912,Runtime assert on unbacked input inside torch.cond improperly gets lifted to top level,open,ezyang,2025-10-20T15:57:34Z,2025-10-22T23:44:19Z,0,https://github.com/pytorch/pytorch/issues/165912
+3532940413,165911,Incorrect user code stack when using torch._dynamo.functional_export._dynamo_graph_capture_for_export,closed,ezyang,2025-10-20T15:42:01Z,2025-10-21T01:32:27Z,1,https://github.com/pytorch/pytorch/issues/165911
+3532894780,165909,"AWS was down, GHA infrastructure effected / recovering",closed,seemethere,2025-10-20T15:28:48Z,2025-10-21T16:41:19Z,0,https://github.com/pytorch/pytorch/issues/165909
+3532779108,165907,Feedback on profiler key_averages documentation,open,alexracape,2025-10-20T14:56:48Z,2025-10-20T15:47:58Z,0,https://github.com/pytorch/pytorch/issues/165907
+3532369449,165906,"`torch.bmm` returns wrong results for large tensors with torch.set_float32_matmul_precision(""medium"")",open,m-j-w-f,2025-10-20T13:03:29Z,2025-10-20T17:31:47Z,2,https://github.com/pytorch/pytorch/issues/165906
+3532207338,165902,torchcodec in pytorch url,open,johnnynunez,2025-10-20T12:11:01Z,2025-10-20T14:27:16Z,0,https://github.com/pytorch/pytorch/issues/165902
+3532089887,165901,[dynamo] support for locel sentinel values (`sentinal = object(); if func(...) is sentinal: ...`),open,XuehaiPan,2025-10-20T11:27:08Z,2025-10-20T11:31:56Z,0,https://github.com/pytorch/pytorch/issues/165901
+3532084370,165900,Converting weights `.pt` content between `dict` and `RecursiveScriptModule`,open,PsorTheDoctor,2025-10-20T11:25:01Z,2025-10-20T14:27:26Z,0,https://github.com/pytorch/pytorch/issues/165900
+3531053735,165892,"`torch.bmm`+`torch.compile` no longer works in 2.9, but worked in 2.8",open,ad8e,2025-10-20T05:00:51Z,2025-10-21T22:04:30Z,2,https://github.com/pytorch/pytorch/issues/165892
+3530667632,165880,torch.vmap doesn't work on most of the models,open,kinwaicheuk-sony,2025-10-20T01:04:50Z,2025-10-20T14:29:08Z,0,https://github.com/pytorch/pytorch/issues/165880
+3530665955,165879,DISABLED test_var_mean_tile_reduction_True_cuda (__main__.GPUTests),open,pytorch-bot[bot],2025-10-20T01:03:41Z,2025-10-20T06:50:17Z,5,https://github.com/pytorch/pytorch/issues/165879
+3530665885,165878,DISABLED test_var_mean_tile_reduction_True_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-10-20T01:03:38Z,2025-10-20T06:49:58Z,1,https://github.com/pytorch/pytorch/issues/165878
+3530665825,165877,DISABLED test_var_mean_tile_reduction_True_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-10-20T01:03:35Z,2025-10-20T06:49:57Z,1,https://github.com/pytorch/pytorch/issues/165877
+3530665756,165876,DISABLED test_var_mean_tile_reduction_True_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-10-20T01:03:32Z,2025-10-20T06:49:56Z,1,https://github.com/pytorch/pytorch/issues/165876
+3530665695,165875,DISABLED test_pw_kernel_benchmark (__main__.TestKernelBenchmark),open,pytorch-bot[bot],2025-10-20T01:03:29Z,2025-10-20T06:49:59Z,2,https://github.com/pytorch/pytorch/issues/165875
+3530431737,165873,No error raised despite shape mismatch in load_state_dict,open,hannamw,2025-10-19T20:50:05Z,2025-10-24T20:08:17Z,1,https://github.com/pytorch/pytorch/issues/165873
+3530394747,165872,DISABLED test_allocator_backend (__main__.TestCudaMallocAsync),closed,jeffdaily,2025-10-19T20:03:16Z,2025-10-22T03:46:26Z,1,https://github.com/pytorch/pytorch/issues/165872
+3530368209,165870,[MPS] torch.linalg.lu_factor on singular matrices different between CPU and MPS,closed,inventshah,2025-10-19T19:26:57Z,2025-10-22T02:48:42Z,0,https://github.com/pytorch/pytorch/issues/165870
+3530270621,165865,randn_like should take a generator.,open,CompRhys,2025-10-19T17:26:50Z,2025-10-27T02:39:28Z,3,https://github.com/pytorch/pytorch/issues/165865
+3530010638,165861,Reflect padding: CUDA errror when one of the batch dimensions is larger than uint16 max value (2**16),closed,michal-lukomski,2025-10-19T12:07:23Z,2025-10-22T21:53:53Z,2,https://github.com/pytorch/pytorch/issues/165861
+3529953113,165858,DISABLED test_2d_reduction_multi_kernel_xpu (__main__.TritonBlockPointerTestGPU),open,etaf,2025-10-19T10:48:43Z,2025-10-19T10:48:47Z,1,https://github.com/pytorch/pytorch/issues/165858
+3529894461,165857,Segmentation fault when using TorchDispatchMode with tensor string representation,open,gabrieldemarmiesse,2025-10-19T09:41:39Z,2025-10-27T03:25:56Z,2,https://github.com/pytorch/pytorch/issues/165857
+3529615955,165854,New flex flash path breaks w/ dynamic buffers,open,drisspg,2025-10-19T07:38:51Z,2025-10-20T14:30:11Z,0,https://github.com/pytorch/pytorch/issues/165854
+3529344383,165850,torch.linalg.inv breaks down when used on mps.,closed,frantisekdracek,2025-10-18T23:40:53Z,2025-10-19T22:29:25Z,4,https://github.com/pytorch/pytorch/issues/165850
+3529267550,165845,PatternMatcherPass and `list[torch.Tensor]` compatibility,open,andylolu2,2025-10-18T22:20:33Z,2025-10-19T22:29:16Z,1,https://github.com/pytorch/pytorch/issues/165845
+3528936439,165838,Inconsistent output with same input using equivalent block masks created via different methods in Flex Attention,closed,fopdoodle8,2025-10-18T15:42:18Z,2025-10-19T07:14:16Z,6,https://github.com/pytorch/pytorch/issues/165838
+3528801125,165836,[ROCm][CI] Machines under the label linux.rocm.gpu.2 are undergoing maintenance.,closed,amdfaa,2025-10-18T12:54:28Z,2025-10-20T16:09:25Z,0,https://github.com/pytorch/pytorch/issues/165836
+3528521178,165832,DataLoader timeout for child Process,open,wuhuachaocoding,2025-10-18T10:06:51Z,2025-10-19T03:17:43Z,1,https://github.com/pytorch/pytorch/issues/165832
+3528478338,165830,Feedback about torch.is_tensor,open,belmakt,2025-10-18T09:45:37Z,2025-10-19T03:16:38Z,1,https://github.com/pytorch/pytorch/issues/165830
+3528409793,165829,Floating Point Exception (Core Dumped) with Dynamic Quantization on nn.Linear with Output Dimension 0,open,qiqicliff,2025-10-18T09:15:52Z,2025-10-20T02:12:45Z,2,https://github.com/pytorch/pytorch/issues/165829
+3528260434,165826,“Request: Add CUDA support for NVIDIA RTX 5070 Ti (Ada Lovelace Refresh)”,open,reno-gtk,2025-10-18T07:44:52Z,2025-10-20T15:30:01Z,1,https://github.com/pytorch/pytorch/issues/165826
+3527902216,165812,cannot find libcudnn.so.9,open,braindevices,2025-10-18T01:01:33Z,2025-10-21T23:50:26Z,10,https://github.com/pytorch/pytorch/issues/165812
+3527890441,165811,[RFC] A Python backend registration API,open,qihqi,2025-10-18T00:46:37Z,2025-10-19T03:20:49Z,1,https://github.com/pytorch/pytorch/issues/165811
+3527889273,165810,"Stack trace and annotation on node is ""wrong"" after `aot_export_joint_with_descriptors` because of regenerate_from_base",open,yushangdi,2025-10-18T00:44:54Z,2025-10-24T18:08:48Z,6,https://github.com/pytorch/pytorch/issues/165810
+3527767358,165801,[CUDA][cuDNN][2.9] CUDA 12.8 wheels ship with cuDNN 9.10.2 but CI is installing 9.8.0,open,eqy,2025-10-17T22:58:51Z,2025-10-20T18:52:45Z,12,https://github.com/pytorch/pytorch/issues/165801
+3527735794,165799,`torch.where` does not accept scalar argument when `out=` is passed,open,hchau630,2025-10-17T22:30:10Z,2025-10-19T19:21:34Z,3,https://github.com/pytorch/pytorch/issues/165799
+3527735692,165798,matmul/mm/bmm crashes on CUDA 13.0 + Libtorch 2.9 on Ubuntu 24.04,open,miriameng,2025-10-17T22:30:05Z,2025-10-18T01:15:24Z,2,https://github.com/pytorch/pytorch/issues/165798
+3527397037,165786,torch._inductor.fx_passes.control_dependencies.ControlDeps missing implementation for DispatchKey.Autograd,open,benjaminglass1,2025-10-17T20:10:47Z,2025-10-19T22:30:03Z,0,https://github.com/pytorch/pytorch/issues/165786
+3527388143,165785,Harden CuTeDSL Inductor Path,open,NikhilAPatel,2025-10-17T20:07:48Z,2025-10-20T23:58:07Z,0,https://github.com/pytorch/pytorch/issues/165785
+3527304693,165781,Add support for sparse tensors with view_as_complex,open,cleonard530,2025-10-17T19:35:22Z,2025-10-17T21:29:40Z,1,https://github.com/pytorch/pytorch/issues/165781
+3527174299,165778,DISABLED test_compile_selective_checkpoint_must_not_recompute_gemm_no_functionalization_cuda (__main__.ActivationCheckpointingViaTagsTestsCUDA),open,pytorch-bot[bot],2025-10-17T18:50:01Z,2025-10-17T18:50:05Z,1,https://github.com/pytorch/pytorch/issues/165778
+3526902992,165771,DISABLED test_batchmatmul (__main__.TestTritonDotReduction),closed,etaf,2025-10-17T17:11:57Z,2025-10-19T23:59:08Z,1,https://github.com/pytorch/pytorch/issues/165771
+3526822183,165768,UNSTABLE rocm-mi355 / linux-noble-rocm-py3.12-mi355 / test (default),open,jithunnair-amd,2025-10-17T16:38:37Z,2025-10-17T16:39:35Z,1,https://github.com/pytorch/pytorch/issues/165768
+3526640631,165761,ModuleNotFoundError: No module named 'torch.ops.symm_mem',closed,tonyf,2025-10-17T15:46:49Z,2025-10-17T20:34:00Z,6,https://github.com/pytorch/pytorch/issues/165761
+3526572899,165758,[ONNX] Better documentation needed for output_names arg,open,ir2718,2025-10-17T15:24:36Z,2025-10-20T09:14:35Z,3,https://github.com/pytorch/pytorch/issues/165758
+3526417014,165753,wrong accuracy_status when check_accuracy occur exception.,closed,xuhancn,2025-10-17T14:36:50Z,2025-10-17T16:44:57Z,1,https://github.com/pytorch/pytorch/issues/165753
+3526194869,165751,`torch.distribution.Gamma` sampling forces a `torch.compile` graph break with dynamic shapes.,open,peterdsharpe,2025-10-17T13:29:59Z,2025-10-20T11:09:49Z,2,https://github.com/pytorch/pytorch/issues/165751
+3526081867,165749,Backward pass failure for `nn.Conv2d` with `weight_norm` and `torch.compile`,open,mxmpl,2025-10-17T12:56:20Z,2025-10-19T22:53:46Z,2,https://github.com/pytorch/pytorch/issues/165749
+3526073758,165748,dynamic_axes in torch.onnx.export seems broken in 2.9.0,closed,wdhongtw,2025-10-17T12:54:24Z,2025-10-19T04:53:27Z,6,https://github.com/pytorch/pytorch/issues/165748
+3525336849,165744,Inconsistency in `conv_transpose2d` for float16 with inf weights between CPU and CUDA,open,rookieLiu2018,2025-10-17T09:57:13Z,2025-10-17T14:42:16Z,0,https://github.com/pytorch/pytorch/issues/165744
+3525204061,165743,[B200] Smoke Tests fail on _scaled_mm_v2 op,closed,Aidyn-A,2025-10-17T09:15:39Z,2025-10-17T17:52:22Z,1,https://github.com/pytorch/pytorch/issues/165743
+3524983217,165742,DISABLED test_comprehensive_to_sparse_xpu_float16 (__main__.TestInductorOpInfoXPU),closed,etaf,2025-10-17T08:09:41Z,2025-10-17T22:34:25Z,2,https://github.com/pytorch/pytorch/issues/165742
+3524893319,165741,Ctx or at least Thread level switch for fp32 IEEE precision tolerance,open,Qubitium,2025-10-17T07:38:13Z,2025-10-19T03:22:44Z,0,https://github.com/pytorch/pytorch/issues/165741
+3524868814,165739,Inconsistent in `torch.fft.irfft` and `torch.fft.ifftn` for complex64 inputs containing `Inf`,open,rookieLiu2018,2025-10-17T07:29:33Z,2025-10-17T14:41:15Z,0,https://github.com/pytorch/pytorch/issues/165739
+3524801975,165738,[intel gpu] performance on xpu are very slow when using tl.sqrt_rn,open,jianyizh,2025-10-17T07:05:56Z,2025-10-17T07:16:48Z,0,https://github.com/pytorch/pytorch/issues/165738
+3524507224,165730,"autocast('cuda', enabled=False) silently ignored on NPU without warning, causing precision issues",open,ZRICHARD9527,2025-10-17T04:55:22Z,2025-10-27T10:23:25Z,8,https://github.com/pytorch/pytorch/issues/165730
+3524435598,165727,DDP hangs at first AllGather during parameter broadcast with tied weights on Blackwell GPUs (sm_120),open,lakshminarasimmanv,2025-10-17T04:16:25Z,2025-10-17T18:13:29Z,0,https://github.com/pytorch/pytorch/issues/165727
+3524371854,165724,Bug: Incorrect dependency length calculation for `node2` in `score_fusion_memory`,closed,bozhiyou,2025-10-17T03:51:22Z,2025-10-24T23:48:07Z,0,https://github.com/pytorch/pytorch/issues/165724
+3524347574,165722,[dynamo] RelationalGuard classes store raw PyObject* without proper reference counting,closed,lingebeng,2025-10-17T03:41:21Z,2025-10-17T23:21:55Z,0,https://github.com/pytorch/pytorch/issues/165722
+3524336504,165721,Error while building extension on Windows with PyTorch 2.9.0,closed,jaquilio,2025-10-17T03:37:07Z,2025-10-17T04:22:42Z,0,https://github.com/pytorch/pytorch/issues/165721
+3524243028,165720,DISABLED test_binomial_sample (__main__.TestDistributions),open,etaf,2025-10-17T03:03:01Z,2025-10-17T03:03:05Z,1,https://github.com/pytorch/pytorch/issues/165720
+3524237074,165719,DISABLED test_3mm_add (__main__.TestTritonDotReduction),closed,etaf,2025-10-17T03:01:09Z,2025-10-19T23:59:08Z,1,https://github.com/pytorch/pytorch/issues/165719
+3524183094,165718,"[Fuzzer][Eager/Compile Divergence]  RuntimeError: self and mat2 must have the same dtype, but got Half and Float",closed,bobrenjc93,2025-10-17T02:41:18Z,2025-10-20T23:26:56Z,4,https://github.com/pytorch/pytorch/issues/165718
+3524079231,165715,Missing spans in CPU section of profile likely caused by memory allocation with expandable segments,open,ad8e,2025-10-17T01:35:33Z,2025-10-19T03:23:28Z,0,https://github.com/pytorch/pytorch/issues/165715
+3524045877,165713,DISABLED test_fn_gradgrad_cholesky_solve_cuda_float64 (__main__.TestBwdGradientsCUDA),open,pytorch-bot[bot],2025-10-17T01:12:25Z,2025-10-19T03:21:21Z,1,https://github.com/pytorch/pytorch/issues/165713
+3523617855,165691,[Triton][LLVM] Triton llvm version bump appears to break maxpool2d tests,open,eqy,2025-10-16T21:47:41Z,2025-10-21T17:46:55Z,0,https://github.com/pytorch/pytorch/issues/165691
+3523554831,165685,"`PYTORCH_CUDA_ALLOC_CONF=""expandable_segments:True""` triggers `RuntimeError: pidfd_getfd: Operation not permitted` for CUDA IPC transfer",open,SumanthRH,2025-10-16T21:21:17Z,2025-10-17T04:32:48Z,2,https://github.com/pytorch/pytorch/issues/165685
+3523490904,165684,Python version in test CI job doesn't align with the python version in the docker build log,open,yushangdi,2025-10-16T20:58:16Z,2025-10-16T22:51:16Z,2,https://github.com/pytorch/pytorch/issues/165684
+3523415886,165681,DISABLED test_fuzzer_issue_164086 (__main__.TestFuzzerCompileIssues),open,jeffdaily,2025-10-16T20:28:47Z,2025-10-17T04:32:12Z,4,https://github.com/pytorch/pytorch/issues/165681
+3523253339,165671,DISABLED test_truediv_base_not_bitwise_equivalent (__main__.CudaReproTests),open,jeffdaily,2025-10-16T19:37:14Z,2025-10-17T04:31:07Z,1,https://github.com/pytorch/pytorch/issues/165671
+3522790174,165654,PyTorch on aarch64 crashes with ConvTranspose1d,open,malfet,2025-10-16T17:19:04Z,2025-10-20T17:03:39Z,5,https://github.com/pytorch/pytorch/issues/165654
+3522787081,165653,[distributed] test_symmetric_memory fails on odd-numbered GPU configurations (3 GPUs),open,RohitRathore1,2025-10-16T17:18:13Z,2025-10-17T04:28:56Z,0,https://github.com/pytorch/pytorch/issues/165653
+3522728834,165650,"`torch.remainder` with integer divisor 0 should raise, but returns large values in CUDA",open,rookieLiu2018,2025-10-16T17:02:28Z,2025-10-16T22:57:52Z,1,https://github.com/pytorch/pytorch/issues/165650
+3522621018,165649,`torch.fmod` crashes on integer tensors when dividend is the minimum representable value and divisor is -1,open,rookieLiu2018,2025-10-16T16:30:08Z,2025-10-23T10:35:01Z,5,https://github.com/pytorch/pytorch/issues/165649
+3522394425,165641,strict export doesn't work with global constants,open,tugsbayasgalan,2025-10-16T15:27:01Z,2025-10-21T21:37:23Z,0,https://github.com/pytorch/pytorch/issues/165641
+3522233928,165634,make_fx pre_dispatch=True produces incorrect graph when BatchedFallback is triggered,open,ezyang,2025-10-16T14:46:56Z,2025-10-17T04:30:22Z,0,https://github.com/pytorch/pytorch/issues/165634
+3521403801,165628,[Meta] Type Hints in Pytorch,open,randolf-scholz,2025-10-16T11:10:48Z,2025-10-21T10:50:48Z,6,https://github.com/pytorch/pytorch/issues/165628
+3521110234,165626,Code Style Cleanup: Replace python3 -mpip with the more readable python3 -m pip,open,lingebeng,2025-10-16T09:41:58Z,2025-10-26T11:21:15Z,5,https://github.com/pytorch/pytorch/issues/165626
+3520946719,165624,[inductor][joint_graph.py] A Likely Merge Mistake,closed,QZero233,2025-10-16T08:55:34Z,2025-10-20T23:23:26Z,1,https://github.com/pytorch/pytorch/issues/165624
+3520854719,165621,Feedback about RNN,open,student868,2025-10-16T08:26:58Z,2025-10-16T14:18:23Z,0,https://github.com/pytorch/pytorch/issues/165621
+3520456020,165615,Feedback about torch.nn.ConvTranspose1d Need adding an example,closed,vishalgoyal316,2025-10-16T06:08:37Z,2025-10-17T19:12:00Z,0,https://github.com/pytorch/pytorch/issues/165615
+3520289709,165613,Tril Does not Support SymInt,open,YifanShenSZ,2025-10-16T04:37:06Z,2025-10-26T18:56:19Z,2,https://github.com/pytorch/pytorch/issues/165613
+3520271382,165612,RFC: Optionally accept NumPy dtypes in all APIs where torch dtypes are accepted,open,leofang,2025-10-16T04:24:52Z,2025-10-16T14:35:11Z,0,https://github.com/pytorch/pytorch/issues/165612
+3519975669,165603,DISABLED test_ops_append_to_existing_file_tunableop_cuda_float32 (__main__.TestLinalgCUDA),open,pytorch-bot[bot],2025-10-16T01:09:17Z,2025-10-16T18:50:42Z,4,https://github.com/pytorch/pytorch/issues/165603
+3519975600,165602,DISABLED test_fn_fwgrad_bwgrad_cholesky_solve_cuda_float64 (__main__.TestFwdGradientsCUDA),open,pytorch-bot[bot],2025-10-16T01:09:14Z,2025-10-16T01:09:17Z,1,https://github.com/pytorch/pytorch/issues/165602
+3519865588,165595,inductor graph partition extension mechanism doesn't work with fx graph cache,closed,zou3519,2025-10-15T23:42:24Z,2025-10-24T16:39:11Z,1,https://github.com/pytorch/pytorch/issues/165595
+3519785698,165590,RuntimeError: non-positive groups is not supported,open,st085318,2025-10-15T22:44:54Z,2025-10-17T18:59:35Z,1,https://github.com/pytorch/pytorch/issues/165590
+3519539129,165579,Inductor bug when compiling Gemma,closed,yushangdi,2025-10-15T20:50:53Z,2025-10-16T19:06:10Z,1,https://github.com/pytorch/pytorch/issues/165579
+3519535393,165578,Out of tree backend documentation does not seem accurate,open,pganssle-google,2025-10-15T20:49:12Z,2025-10-17T04:30:01Z,1,https://github.com/pytorch/pytorch/issues/165578
+3519481471,165577,CI: What is the purpose of `slow.yml`,open,malfet,2025-10-15T20:33:34Z,2025-10-16T09:24:45Z,1,https://github.com/pytorch/pytorch/issues/165577
+3519164462,165570,Add support for element-wise operations to flop counter,open,alisyeMeta,2025-10-15T18:40:15Z,2025-10-17T04:29:30Z,2,https://github.com/pytorch/pytorch/issues/165570
+3518826357,165559,Release 2.9 README.md has links to images that do not work on pypi,open,atalman,2025-10-15T16:45:19Z,2025-10-16T13:21:07Z,2,https://github.com/pytorch/pytorch/issues/165559
+3518650307,165552,"Feature Request: Add a mechanism to track ""dead"" ReLU activations",closed,Mark799,2025-10-15T15:55:39Z,2025-10-16T09:22:44Z,2,https://github.com/pytorch/pytorch/issues/165552
+3518594437,165549,Operations like `abs` (dispatched via CompositeExplicitAutograd) return empty tensors when run through cpu_fallback,open,fizzxed,2025-10-15T15:40:44Z,2025-10-17T18:45:38Z,1,https://github.com/pytorch/pytorch/issues/165549
+3518378453,165547,error message for deepcopy a cuda tensor under FakeTensorMode is pretty cryptic,open,zou3519,2025-10-15T14:41:19Z,2025-10-24T16:38:12Z,1,https://github.com/pytorch/pytorch/issues/165547
+3517284765,165537,"`torch.linspace` with `inf` endpoint and `float16` dtype returns all `nan`,inconsistent with NumPy",open,rookieLiu2018,2025-10-15T10:01:22Z,2025-10-15T13:15:18Z,0,https://github.com/pytorch/pytorch/issues/165537
+3517242170,165536,some questions for contributing,closed,wenlinchong17-web,2025-10-15T09:48:39Z,2025-10-17T14:41:52Z,1,https://github.com/pytorch/pytorch/issues/165536
+3516624591,165532,PyTorch CPU / DataLoader: “Too many open files” (`EMFILE`),open,dipikakhullar,2025-10-15T06:55:58Z,2025-10-21T03:06:15Z,8,https://github.com/pytorch/pytorch/issues/165532
+3516613339,165530,`torch.func.jvp` does not support flash_attention calculation,closed,pnotp,2025-10-15T06:52:20Z,2025-10-16T09:05:05Z,1,https://github.com/pytorch/pytorch/issues/165530
+3516464674,165525,view size is not compatible with input tensor’s size and stride,closed,dipikakhullar,2025-10-15T06:04:11Z,2025-10-15T19:52:16Z,0,https://github.com/pytorch/pytorch/issues/165525
+3516326300,165517,torch.func.jvp does not support flash_attn,closed,pnotp,2025-10-15T04:50:29Z,2025-10-16T09:04:34Z,1,https://github.com/pytorch/pytorch/issues/165517
+3516108640,165506,[torch.compile] dynamic shape kernel mismatch,open,dxqb,2025-10-15T02:30:20Z,2025-10-19T23:01:04Z,0,https://github.com/pytorch/pytorch/issues/165506
+3516100008,165503,Feedback about torch.Tensor.index_put_,closed,NGC13009,2025-10-15T02:24:33Z,2025-10-15T23:28:49Z,2,https://github.com/pytorch/pytorch/issues/165503
+3516091243,165501,Inductor custom pass mechanism that maintains config constraints,open,zou3519,2025-10-15T02:17:45Z,2025-10-24T16:38:11Z,0,https://github.com/pytorch/pytorch/issues/165501
+3515902690,165491,symbolic_trace removes some pkg.torch.onnx.stack_trace metadata,open,jsmonson,2025-10-15T00:09:14Z,2025-10-17T04:31:53Z,3,https://github.com/pytorch/pytorch/issues/165491
+3515756053,165486,Update user-extensible inductor graph partition design,closed,zou3519,2025-10-14T22:51:54Z,2025-10-24T16:39:11Z,1,https://github.com/pytorch/pytorch/issues/165486
+3515641281,165480,View decomposition of moe fails in nightly,open,cehongwang,2025-10-14T21:59:16Z,2025-10-20T22:33:28Z,1,https://github.com/pytorch/pytorch/issues/165480
+3515551537,165471,inductor graph partition x AOTAutograd Cache issue,open,BoyuanFeng,2025-10-14T21:22:34Z,2025-10-24T16:38:10Z,10,https://github.com/pytorch/pytorch/issues/165471
+3515368037,165468,flex_attention does not work with amp,open,wzm2256,2025-10-14T20:21:53Z,2025-10-16T08:55:30Z,1,https://github.com/pytorch/pytorch/issues/165468
+3514961801,165455,PrivateUse1 backends starting with cpu and cuda fail in de-serialization,open,matthewdcong,2025-10-14T18:04:41Z,2025-10-14T22:14:43Z,0,https://github.com/pytorch/pytorch/issues/165455
+3514824379,165448,`import torch` fails on 3.13 Linux nightly jobs with AST parsing errors,open,izaitsevfb,2025-10-14T17:15:26Z,2025-10-14T20:12:01Z,2,https://github.com/pytorch/pytorch/issues/165448
+3514822185,165447,[precompile] AOT Precompile serialization failed when running mutliple times,closed,yiming0416,2025-10-14T17:14:41Z,2025-10-17T17:47:26Z,3,https://github.com/pytorch/pytorch/issues/165447
+3514738175,165444,AOTInductor not updating buffers inplace,open,olarucatalin,2025-10-14T16:48:34Z,2025-10-19T23:42:43Z,2,https://github.com/pytorch/pytorch/issues/165444
+3514650522,165439,[distributed] wrong typing for fully_shard reshard_after_forward overloads,open,Laurent2916,2025-10-14T16:23:16Z,2025-10-14T16:42:17Z,0,https://github.com/pytorch/pytorch/issues/165439
+3513110277,165428,Using NCCL for Global Group and MPI for Sub-Groups in torch.distributed,closed,cq-eng,2025-10-14T09:26:47Z,2025-10-15T13:44:42Z,11,https://github.com/pytorch/pytorch/issues/165428
+3513099085,165427,"PyTorch's atan2 function avoids computational anomalies when the input is zero, but the backward gradient becomes NaN.",open,cilence,2025-10-14T09:23:45Z,2025-10-14T14:02:35Z,0,https://github.com/pytorch/pytorch/issues/165427
+3513029438,165425,Support FFT operations in FLOP counter,open,rudolfwilliam,2025-10-14T09:04:04Z,2025-10-14T23:15:49Z,2,https://github.com/pytorch/pytorch/issues/165425
+3512953447,165422,`_set_pg_timeout` doesn't work for the gloo backend,open,WindowsXp-Beta,2025-10-14T08:41:38Z,2025-10-14T22:55:12Z,3,https://github.com/pytorch/pytorch/issues/165422
+3512818560,165421,[torch.compile][fullgraph][dynamic shapes] aten.masked_select.default rejected as “Dynamic shape operator” (eager OK),open,tinywisdom,2025-10-14T08:04:40Z,2025-10-19T23:10:31Z,1,https://github.com/pytorch/pytorch/issues/165421
+3512783810,165419,[RFC] Make PyTorch Expandable Segments interoperate with CUDA VMM-based allocators (NCCL ncclMemAlloc),open,eee4017,2025-10-14T07:53:01Z,2025-10-20T17:51:31Z,6,https://github.com/pytorch/pytorch/issues/165419
+3512749817,165417,[torch.compile][fullgraph][dynamic shapes] `torch.unique` (`aten._unique2.default`) rejected as “Dynamic shape operator” in fullgraph mode (eager OK),closed,tinywisdom,2025-10-14T07:41:11Z,2025-10-19T23:10:25Z,1,https://github.com/pytorch/pytorch/issues/165417
+3512743072,165416,DISABLED test_unspec_inputs_int8_xpu (__main__.GPUTests),closed,etaf,2025-10-14T07:38:46Z,2025-10-17T22:34:30Z,2,https://github.com/pytorch/pytorch/issues/165416
+3512742050,165415,DISABLED test_comprehensive_atanh_xpu_float16 (__main__.TestInductorOpInfoXPU),closed,etaf,2025-10-14T07:38:24Z,2025-10-17T22:34:22Z,2,https://github.com/pytorch/pytorch/issues/165415
+3512740540,165414,DISABLED test_var_correction_xpu (__main__.GPUTests),closed,etaf,2025-10-14T07:37:51Z,2025-10-17T22:34:32Z,2,https://github.com/pytorch/pytorch/issues/165414
+3512738556,165413,DISABLED test_correctness_RAdam_use_closure_True_xpu_float32 (__main__.CompiledOptimizerParityTestsXPU),closed,etaf,2025-10-14T07:37:10Z,2025-10-17T22:34:26Z,2,https://github.com/pytorch/pytorch/issues/165413
+3512736518,165412,DISABLED test_unspec_inputs_int32_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests),closed,etaf,2025-10-14T07:36:25Z,2025-10-17T22:34:29Z,2,https://github.com/pytorch/pytorch/issues/165412
+3512735270,165411,DISABLED test_unspec_inputs_uint8_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests),closed,etaf,2025-10-14T07:35:57Z,2025-10-17T22:34:31Z,2,https://github.com/pytorch/pytorch/issues/165411
+3512710475,165409,[torch.compile][fullgraph][functionalization] In-place op on overlapped view from unfold fails: “tensor being mutated has internal overlap” (eager OK),open,tinywisdom,2025-10-14T07:27:03Z,2025-10-27T02:59:03Z,2,https://github.com/pytorch/pytorch/issues/165409
+3512658854,165408,[torch.compile][fullgraph] Dynamo rejects comparing `data_ptr()` results (`Unsupported: Builtin operator.* comparison with constant self`),open,tinywisdom,2025-10-14T07:12:03Z,2025-10-19T23:14:00Z,0,https://github.com/pytorch/pytorch/issues/165408
+3512647434,165407,Specific torch compile memory leak involving flash_attn_varlen_func,open,CoffeeVampir3,2025-10-14T07:08:37Z,2025-10-19T23:39:16Z,1,https://github.com/pytorch/pytorch/issues/165407
+3512578683,165403,DISABLED test_div_by_zero_dynamic_shapes_xpu (__main__.DynamicShapesGPUTests),closed,daisyden,2025-10-14T06:42:25Z,2025-10-17T22:34:27Z,2,https://github.com/pytorch/pytorch/issues/165403
+3512446217,165400,aten::bitwise_xor,open,RaminAI9,2025-10-14T05:44:44Z,2025-10-14T13:33:35Z,0,https://github.com/pytorch/pytorch/issues/165400
+3512281837,165399,dist.reduce_scatter_tensor produce wrong output on some input shape,open,idning,2025-10-14T04:10:01Z,2025-10-17T05:59:18Z,3,https://github.com/pytorch/pytorch/issues/165399
+3512244229,165398,Skipping combo kernel for large pointwise nodes,open,BoyuanFeng,2025-10-14T03:50:05Z,2025-10-24T16:38:10Z,0,https://github.com/pytorch/pytorch/issues/165398
+3512207328,165396,error installing in python 3.14.0,closed,mcandre,2025-10-14T03:23:44Z,2025-10-16T08:02:40Z,3,https://github.com/pytorch/pytorch/issues/165396
+3512166317,165395,[export] run_decompositions fails with index error,open,justinchuby,2025-10-14T02:57:28Z,2025-10-21T21:37:04Z,2,https://github.com/pytorch/pytorch/issues/165395
+3512109878,165392,[Intel GPU] Conv1d produces incorrect results with permuted input under eager mode,open,etaf,2025-10-14T02:23:00Z,2025-10-14T07:16:49Z,1,https://github.com/pytorch/pytorch/issues/165392
+3511974669,165389,DISABLED test_nested_masked_select_cpu (__main__.TestNestedTensorDeviceTypeCPU),open,pytorch-bot[bot],2025-10-14T01:06:34Z,2025-10-23T00:15:05Z,4,https://github.com/pytorch/pytorch/issues/165389
+3511974614,165388,DISABLED test_mark_unbacked_with_hint_override_cuda (__main__.GPUTests),open,pytorch-bot[bot],2025-10-14T01:06:31Z,2025-10-22T06:52:42Z,13,https://github.com/pytorch/pytorch/issues/165388
+3511974545,165387,DISABLED test_module_to (__main__.FakeTensorOperatorInvariants),open,pytorch-bot[bot],2025-10-14T01:06:28Z,2025-10-14T06:50:08Z,2,https://github.com/pytorch/pytorch/issues/165387
+3511974492,165386,DISABLED test_fn_fwgrad_bwgrad_cholesky_solve_cuda_complex128 (__main__.TestFwdGradientsCUDA),open,pytorch-bot[bot],2025-10-14T01:06:25Z,2025-10-14T01:06:28Z,1,https://github.com/pytorch/pytorch/issues/165386
+3511970197,165385,[dynamo] Invalid setattr's are not handled properly in general,open,williamwen42,2025-10-14T01:02:57Z,2025-10-14T16:11:02Z,1,https://github.com/pytorch/pytorch/issues/165385
+3511422687,165360,More checks for custom op registration,closed,BoyuanFeng,2025-10-13T20:38:43Z,2025-10-13T20:48:23Z,3,https://github.com/pytorch/pytorch/issues/165360
+3511211303,165354,[ONNX] Idea of a `torch.onnx.ExportableModule`,open,justinchuby,2025-10-13T19:22:55Z,2025-10-13T19:23:00Z,0,https://github.com/pytorch/pytorch/issues/165354
+3511168955,165350,Remove MPSGraph impl of `torch.cat` in favor of Metal kernel,closed,kurtamohler,2025-10-13T19:08:13Z,2025-10-17T00:03:07Z,0,https://github.com/pytorch/pytorch/issues/165350
+3511131011,165349,torch.compile custom operators (and maybe more) debug mode,open,zou3519,2025-10-13T18:53:32Z,2025-10-26T18:46:25Z,1,https://github.com/pytorch/pytorch/issues/165349
+3511116021,165346,DISABLED test_conj_view_cholesky_solve_cuda_complex64 (__main__.TestMathBitsCUDA),open,pytorch-bot[bot],2025-10-13T18:48:38Z,2025-10-13T18:48:42Z,1,https://github.com/pytorch/pytorch/issues/165346
+3511055058,165343,doctests are failing on MacOS,closed,malfet,2025-10-13T18:26:19Z,2025-10-14T19:19:06Z,1,https://github.com/pytorch/pytorch/issues/165343
+3511002431,165341,fix registration design for inductor graph partition for vLLM,open,zou3519,2025-10-13T18:09:22Z,2025-10-24T16:38:09Z,4,https://github.com/pytorch/pytorch/issues/165341
+3510998164,165340,Nll_loss2d can cause heap corruption.,open,elliott-wen,2025-10-13T18:07:45Z,2025-10-13T21:08:43Z,1,https://github.com/pytorch/pytorch/issues/165340
+3510375251,165324,How to enable Bfloat16 when using torch.func.jvp,open,pnotp,2025-10-13T14:52:15Z,2025-10-13T16:22:58Z,0,https://github.com/pytorch/pytorch/issues/165324
+3510267566,165320,numerical mismatches in test_cp_flex_attention_causal_mask,open,Aidyn-A,2025-10-13T14:20:29Z,2025-10-19T23:53:33Z,2,https://github.com/pytorch/pytorch/issues/165320
+3510192053,165319,Memory leak when converting from numpy array,open,raphaelreme,2025-10-13T13:58:22Z,2025-10-14T08:06:37Z,4,https://github.com/pytorch/pytorch/issues/165319
+3509654869,165312,TransformerEncoder crashes with IndexError when num_layers=0,open,abhitorch81,2025-10-13T11:24:46Z,2025-10-14T13:34:02Z,0,https://github.com/pytorch/pytorch/issues/165312
+3508751080,165297,[BUG] MaxPool2d with channels_last + bfloat16 on CUDA produces NaNs for large tensors,closed,GCQi,2025-10-13T07:09:15Z,2025-10-16T07:59:51Z,4,https://github.com/pytorch/pytorch/issues/165297
+3508700755,165296,DISABLED test_comprehensive___rpow___cuda_float32 (__main__.TestInductorOpInfoCUDA),open,pytorch-bot[bot],2025-10-13T06:49:28Z,2025-10-13T06:49:33Z,1,https://github.com/pytorch/pytorch/issues/165296
+3508700668,165295,DISABLED test_noncontiguous_samples_cholesky_solve_cuda_float32 (__main__.TestCommonCUDA),open,pytorch-bot[bot],2025-10-13T06:49:25Z,2025-10-13T12:57:53Z,2,https://github.com/pytorch/pytorch/issues/165295
+3508700570,165294,DISABLED test_noncontiguous_samples_cholesky_solve_cuda_complex64 (__main__.TestCommonCUDA),open,pytorch-bot[bot],2025-10-13T06:49:22Z,2025-10-13T06:49:26Z,1,https://github.com/pytorch/pytorch/issues/165294
+3508700467,165293,DISABLED test_neg_view_cholesky_solve_cuda_float64 (__main__.TestMathBitsCUDA),closed,pytorch-bot[bot],2025-10-13T06:49:19Z,2025-10-27T06:50:53Z,3,https://github.com/pytorch/pytorch/issues/165293
+3508275104,165276,pip install torch==2.7.0 ERROR: No matching distribution found for torch==2.7.0,closed,wangdabee,2025-10-13T02:47:53Z,2025-10-27T08:55:13Z,2,https://github.com/pytorch/pytorch/issues/165276
+3171235430,156691,DISABLED test_relative_import_no_modulename (__main__.ReproTests),closed,pytorch-bot[bot],2025-06-24T09:43:48Z,2025-10-27T06:50:50Z,22,https://github.com/pytorch/pytorch/issues/156691
+3078442514,153996,UR Error when calling grid_sample,open,KhartesViewer,2025-05-20T23:22:39Z,2025-10-27T10:17:25Z,35,https://github.com/pytorch/pytorch/issues/153996
+3001982863,151540,DISABLED test_remove_noop_view_dtype_cpu (__main__.CpuTests),closed,pytorch-bot[bot],2025-04-17T09:42:33Z,2025-10-27T06:50:41Z,39,https://github.com/pytorch/pytorch/issues/151540
+3001333064,151512,DISABLED test_remove_noop_view_default_cpu (__main__.CpuTests),closed,pytorch-bot[bot],2025-04-17T03:47:43Z,2025-10-27T06:50:32Z,43,https://github.com/pytorch/pytorch/issues/151512
+3001333014,151511,DISABLED test_remove_noop_view_default_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-04-17T03:47:39Z,2025-10-27T06:50:56Z,38,https://github.com/pytorch/pytorch/issues/151511
+2998033653,151384,DISABLED test_remove_noop_slice_cpu (__main__.CpuTests),closed,pytorch-bot[bot],2025-04-16T01:02:50Z,2025-10-27T06:50:35Z,46,https://github.com/pytorch/pytorch/issues/151384
+2998033592,151382,DISABLED test_remove_noop_slice_scatter_cpu (__main__.CpuTests),closed,pytorch-bot[bot],2025-04-16T01:02:47Z,2025-10-27T06:50:38Z,45,https://github.com/pytorch/pytorch/issues/151382
+2998033561,151381,DISABLED test_remove_noop_slice1_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-04-16T01:02:44Z,2025-10-27T06:50:59Z,42,https://github.com/pytorch/pytorch/issues/151381
+2998033527,151379,DISABLED test_remove_noop_slice1_cpu (__main__.CpuTests),closed,pytorch-bot[bot],2025-04-16T01:02:41Z,2025-10-27T06:50:44Z,45,https://github.com/pytorch/pytorch/issues/151379
+2998033477,151378,DISABLED test_remove_noop_slice_scatter_cuda (__main__.GPUTests),closed,pytorch-bot[bot],2025-04-16T01:02:38Z,2025-10-27T06:51:02Z,40,https://github.com/pytorch/pytorch/issues/151378
+2942328240,149846,Memory leak in torch.save,closed,cdzhan,2025-03-24T07:46:41Z,2025-10-27T09:22:21Z,8,https://github.com/pytorch/pytorch/issues/149846
+2475576681,133994,DISABLED test_get_mode_stack (__main__.TestTorchFunctionMode),closed,pytorch-bot[bot],2024-08-20T12:53:38Z,2025-10-27T06:50:47Z,16,https://github.com/pytorch/pytorch/issues/133994
+1565235122,93531,TorchInductor CPU Performance Dashboard,open,blzheng,2022-10-13T02:29:48Z,2025-10-27T08:40:34Z,1132,https://github.com/pytorch/pytorch/issues/93531
+1240333853,77764,General MPS op coverage tracking issue,open,albanD,2022-05-18T18:12:47Z,2025-10-27T10:58:20Z,1765,https://github.com/pytorch/pytorch/issues/77764
+3458973498,163990,Add CI job to track typing changes made to PyTorch,open,lolpack,2025-09-26T20:09:33Z,2025-10-27T12:13:45Z,3,https://github.com/pytorch/pytorch/issues/163990
+2901076969,148687,torch.onnx.export with torchaudio Spectrogram doesn't support dynamic batch size,open,sammlapp,2025-03-06T17:59:27Z,2025-10-27T12:22:56Z,23,https://github.com/pytorch/pytorch/issues/148687

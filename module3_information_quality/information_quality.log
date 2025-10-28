@@ -1,0 +1,19 @@
+
+{"ts": "2025-10-27T12:38:21.087663Z", "event": "RUN", "stage": "START", "message": "Starting integrity and quality checks"}
+{"ts": "2025-10-27T12:38:21.094375Z", "event": "INTEGRITY_OF_OUTPUT_FILE", "check": "File writable", "result": "PASS", "path": "pytorch_issues_last6months.csv"}
+{"ts": "2025-10-27T12:38:21.199760Z", "event": "INTEGRITY_OF_OUTPUT_FILE", "check": "File modified externally", "result": "PASS", "path": "pytorch_issues_last6months.csv", "prev_hash": "fcb71928049ed8f14b1c2936ba3dda60d0e19d4e3f403a3a2369d330d87667e3", "current_hash": "fcb71928049ed8f14b1c2936ba3dda60d0e19d4e3f403a3a2369d330d87667e3", "prev_mtime": 1761563252.782547, "current_mtime": 1761563252.782547}
+{"ts": "2025-10-27T12:38:21.200077Z", "event": "ACCESSIBILITY_OF_DATA", "check": "API URL format", "result": "PASS", "url": "https://api.github.com/repos/pytorch/pytorch/issues"}
+{"ts": "2025-10-27T12:38:21.200327Z", "event": "ACCESSIBILITY_OF_DATA", "check": "Token provided", "result": "FAIL", "reason": "No token set"}
+{"ts": "2025-10-27T12:38:21.879816Z", "event": "ACCESSIBILITY_OF_DATA", "check": "API accessibility", "result": "PASS", "status_code": 200}
+{"ts": "2025-10-27T12:38:21.951864Z", "event": "ACCESSIBILITY_OF_DATA", "check": "Rate limit availability", "result": "PASS", "remaining": 59}
+{"ts": "2025-10-27T12:38:21.955931Z", "event": "FETCH_NEW_ISSUES", "since_date": "2025-10-27T06:36:19Z", "existing_count": 271}
+{"ts": "2025-10-27T12:38:22.958194Z", "event": "FETCH_NEW_ISSUES", "check": "Page processed", "result": "PASS", "page": 1, "items_returned": 81, "items_added": 2}
+{"ts": "2025-10-27T12:38:22.959065Z", "event": "FETCH_NEW_ISSUES", "check": "Summary", "result": "PASS", "total_added": 2}
+{"ts": "2025-10-27T12:38:22.961815Z", "event": "FETCH_NEW_ISSUES", "check": "Append", "result": "PASS", "appended": 2, "path": "pytorch_issues_last6months.csv"}
+{"ts": "2025-10-27T12:38:22.963565Z", "event": "DATA_QUALITY_CHECKS", "check": "Duplicate issue IDs", "result": "PASS", "duplicates": []}
+{"ts": "2025-10-27T12:38:22.963968Z", "event": "DATA_QUALITY_CHECKS", "check": "New issues fetched", "result": "PASS", "count": 2}
+{"ts": "2025-10-27T12:38:22.964400Z", "event": "DATA_QUALITY_CHECKS", "check": "Missing record consistency", "result": "PASS", "total_records": 273, "total_unique": 273}
+{"ts": "2025-10-27T12:38:22.977865Z", "event": "PREDICTION_CHECKS", "check": "Predicted values", "result": "PASS", "predicted_open": 47.0, "predicted_closed": 9.0}
+{"ts": "2025-10-27T12:38:22.978358Z", "event": "PREDICTION_CHECKS", "check": "Warning thresholds", "result": "FAIL", "warnings": ["A"]}
+{"ts": "2025-10-27T12:38:23.074212Z", "event": "PREDICTION_CHECKS", "check": "Visualization of summarized data", "result": "PASS", "image_path": "weekly_open_closed_issues.png"}
+{"ts": "2025-10-27T12:38:23.074586Z", "event": "RUN", "stage": "END", "message": "All quality checks completed successfully"}
