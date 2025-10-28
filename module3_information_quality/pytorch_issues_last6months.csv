@@ -272,3 +272,45 @@ id,number,title,state,user,created_at,updated_at,comments,url
 1240333853,77764,General MPS op coverage tracking issue,open,albanD,2022-05-18T18:12:47Z,2025-10-27T10:58:20Z,1765,https://github.com/pytorch/pytorch/issues/77764
 3458973498,163990,Add CI job to track typing changes made to PyTorch,open,lolpack,2025-09-26T20:09:33Z,2025-10-27T12:13:45Z,3,https://github.com/pytorch/pytorch/issues/163990
 2901076969,148687,torch.onnx.export with torchaudio Spectrogram doesn't support dynamic batch size,open,sammlapp,2025-03-06T17:59:27Z,2025-10-27T12:22:56Z,23,https://github.com/pytorch/pytorch/issues/148687
+3560301254,166387,torch._dynamo.exc.BackendCompilerFailed about mixed TF32 API usage using torch.compile when only new API is used,open,Godel-bach,2025-10-28T08:06:59Z,2025-10-28T08:07:03Z,0,https://github.com/pytorch/pytorch/issues/166387
+3560180272,166385,Missing absolute tolerance transform for complex inputs breaks slow/fast gradcheck contract,open,redwrasse,2025-10-28T07:28:40Z,2025-10-28T07:28:40Z,0,https://github.com/pytorch/pytorch/issues/166385
+3560048925,166378,Multihead Attention's in_proj_weight is initialized inconsistently,open,ekiral,2025-10-28T06:41:01Z,2025-10-28T06:41:01Z,0,https://github.com/pytorch/pytorch/issues/166378
+3559514509,166364,Flex Attention does not support learnable scalar,open,DylanLIiii,2025-10-28T02:48:40Z,2025-10-28T02:48:54Z,0,https://github.com/pytorch/pytorch/issues/166364
+3559495974,166363,All Docker build failed due to Ubuntu archive outage,open,atalman,2025-10-28T02:42:58Z,2025-10-28T02:42:58Z,0,https://github.com/pytorch/pytorch/issues/166363
+3559357879,166360,torch.nn.parallel.comm.gather produces incorrect results on cuda devices,open,jefferyyjhsu,2025-10-28T01:40:44Z,2025-10-28T01:40:44Z,0,https://github.com/pytorch/pytorch/issues/166360
+3559049627,166352,ModuleNotFoundError: No module named 'onnxscript',open,kevinzakka,2025-10-27T23:24:57Z,2025-10-27T23:28:16Z,0,https://github.com/pytorch/pytorch/issues/166352
+3558224007,166326,UNSTABLE windows-arm64-build-test / build,open,atalman,2025-10-27T19:11:26Z,2025-10-27T23:24:41Z,3,https://github.com/pytorch/pytorch/issues/166326
+3558134226,166323,[ONNX] Enable the progress bar,open,justinchuby,2025-10-27T18:45:08Z,2025-10-27T22:06:07Z,0,https://github.com/pytorch/pytorch/issues/166323
+3557904253,166319,[Fuzzer][Eager/Compile Divergence] LoweringException assert bool(static_expr),open,bobrenjc93,2025-10-27T17:45:00Z,2025-10-27T17:45:04Z,0,https://github.com/pytorch/pytorch/issues/166319
+3557551901,166311,Unable to export profiler trace,open,tushar00jain,2025-10-27T16:14:09Z,2025-10-27T22:05:50Z,0,https://github.com/pytorch/pytorch/issues/166311
+3557138823,166305,torch.compile() + DDP fails even for the simplest custom autograd.Function when optimize_ddp=True,closed,studyingeugene,2025-10-27T14:43:09Z,2025-10-28T04:15:00Z,1,https://github.com/pytorch/pytorch/issues/166305
+3556960170,166303,Pytorch Operators on older pytorch version,open,Caenorst,2025-10-27T14:04:02Z,2025-10-27T16:55:38Z,2,https://github.com/pytorch/pytorch/issues/166303
+3556752980,166301,Improve Docs: Reproducibility and Randomness in dist training with multi-process data loading and explicit RNG seed,open,JohannesTheo,2025-10-27T13:18:42Z,2025-10-27T15:04:53Z,0,https://github.com/pytorch/pytorch/issues/166301
+3505754572,165231,_scaled_mm errors with row-major rhs matrix,open,dxqb,2025-10-11T12:44:46Z,2025-10-27T17:31:05Z,1,https://github.com/pytorch/pytorch/issues/165231
+3503948469,165165,Proposal to bring back 12.9 wheels,open,huydhn,2025-10-10T17:54:18Z,2025-10-28T07:17:02Z,6,https://github.com/pytorch/pytorch/issues/165165
+3484422654,164684,"[Fuzzer][Eager/Compile Divergence] call_function <built-in function mul>(*(Eq(u0, 1), FakeTensor(..., size=(), requires_grad=True)), **{}): got TypeError(""unsupported operand type(s) for *: 'SymBool' and 'FakeTensor'"")",open,bobrenjc93,2025-10-05T05:18:21Z,2025-10-28T07:20:35Z,3,https://github.com/pytorch/pytorch/issues/164684
+3472375530,164342,Official support for sm_120 (RTX 50-series / Blackwell) in stable PyTorch builds,open,endvntgf-design,2025-10-01T07:21:36Z,2025-10-28T05:52:56Z,13,https://github.com/pytorch/pytorch/issues/164342
+3470913405,164281,Document Symmetric Memory,open,syed-ahmed,2025-09-30T20:05:17Z,2025-10-27T19:07:11Z,4,https://github.com/pytorch/pytorch/issues/164281
+3470673074,164271,DISABLED test_honor_sm_carveout_cuda (__main__.TestFP8MatmulCUDA),open,pytorch-bot[bot],2025-09-30T18:50:30Z,2025-10-27T18:55:49Z,6,https://github.com/pytorch/pytorch/issues/164271
+3467391001,164204,fuse_as_graphmodule change the partitioned exported program input order,open,chenweng-quic,2025-09-30T03:37:19Z,2025-10-27T23:22:42Z,7,https://github.com/pytorch/pytorch/issues/164204
+3455699201,163929,[inductor] `argmax` outputs wrong when working on transposed and mutated matrix,closed,maybeLee,2025-09-26T03:52:45Z,2025-10-28T01:23:27Z,3,https://github.com/pytorch/pytorch/issues/163929
+3447147939,163717,DISABLED test_flex_attention_stride_ordering_mode_paged_attention_permute_order3_shape0_cuda (__main__.TestFlexAttentionCUDA),closed,pytorch-bot[bot],2025-09-24T01:04:17Z,2025-10-28T01:09:32Z,4,https://github.com/pytorch/pytorch/issues/163717
+3439620487,163496,[dynamo] recompilation failure error message still points to old troubleshooting doc,closed,williamwen42,2025-09-22T07:47:26Z,2025-10-27T19:31:14Z,1,https://github.com/pytorch/pytorch/issues/163496
+3420906073,163051,"[torch.export] `AssertionError: assert isinstance(a, FakeTensor)` in `_free_unbacked_symbols_with_path` when exporting model that uses `torch.func.jvp` + `functional_call` + dict params",closed,tinywisdom,2025-09-16T07:42:45Z,2025-10-27T22:46:39Z,1,https://github.com/pytorch/pytorch/issues/163051
+3243841706,158657,extend torch.util.checkpoint to support offload to cpu/nvme,open,stas00,2025-07-18T17:08:06Z,2025-10-27T17:31:08Z,15,https://github.com/pytorch/pytorch/issues/158657
+3211431630,157778,[xpu][bug] test_optimizer_non_static_param got failed on Intel GPU,open,daisyden,2025-07-08T07:46:20Z,2025-10-28T07:11:30Z,0,https://github.com/pytorch/pytorch/issues/157778
+3184158964,157172,DISABLED test_compile_kernel_advanced (__main__.TestCompileKernel),closed,pytorch-bot[bot],2025-06-27T21:42:38Z,2025-10-28T01:09:29Z,21,https://github.com/pytorch/pytorch/issues/157172
+3183261106,157110,DISABLED test_invalid_status_for_legacy_api (__main__.TestCuda),closed,pytorch-bot[bot],2025-06-27T15:43:35Z,2025-10-27T18:49:24Z,20,https://github.com/pytorch/pytorch/issues/157110
+3161231329,156434,Suggest to use the torch cmake target instead of ${TORCH_LIBRARIES} in the c++ docs,open,fizzxed,2025-06-19T19:57:40Z,2025-10-27T17:42:34Z,1,https://github.com/pytorch/pytorch/issues/156434
+3111485538,154887,MPS batch_norm mixed dtype failure,open,manuelcandales,2025-06-02T20:10:57Z,2025-10-28T07:40:42Z,1,https://github.com/pytorch/pytorch/issues/154887
+3023390323,152285,Error after successful build: No module named 'torch._C._distributed_c10d',open,henrydwright,2025-04-27T23:37:35Z,2025-10-27T09:03:18Z,8,https://github.com/pytorch/pytorch/issues/152285
+3001983022,151541,DISABLED test_remove_noop_view_dtype_cuda (__main__.GPUTests),open,pytorch-bot[bot],2025-04-17T09:42:37Z,2025-10-28T06:52:12Z,41,https://github.com/pytorch/pytorch/issues/151541
+2964681518,150477,[dynamo] improve graph break message causing skipped frame,open,williamwen42,2025-04-01T22:12:56Z,2025-10-27T20:28:06Z,2,https://github.com/pytorch/pytorch/issues/150477
+2780666444,144564,Tabulate not official dependency of PyTorch but needed by features like FlopCounterMode,open,zou3519,2025-01-10T17:03:23Z,2025-10-27T17:16:13Z,6,https://github.com/pytorch/pytorch/issues/144564
+2525444194,136012,Inductor generates redundant assignments,open,IvanKobzarev,2024-09-13T18:40:28Z,2025-10-27T20:17:28Z,3,https://github.com/pytorch/pytorch/issues/136012
+2464298472,133367,Adafactor foreach impl performance tracker,open,janeyx99,2024-08-13T21:59:08Z,2025-10-27T20:13:49Z,10,https://github.com/pytorch/pytorch/issues/133367
+1958735260,111901,Multiprocess. DataLoader worker  is killed by signal: Segmentation fault.,open,moghadas76,2023-10-24T08:11:27Z,2025-10-27T15:02:35Z,17,https://github.com/pytorch/pytorch/issues/111901
+1180903463,74746,Change the type hint for nn.Module.__call__ to be friendly to overrides.,open,ppeetteerrs,2022-03-25T15:01:38Z,2025-10-28T08:03:58Z,13,https://github.com/pytorch/pytorch/issues/74746
+995040577,64932,[RFC] TorchStore - A Shared-Memory Tensor Store,open,cbalioglu,2021-09-13T15:37:29Z,2025-10-27T16:56:02Z,46,https://github.com/pytorch/pytorch/issues/64932
+522939058,29814,SGD fails on sparse matrix,open,antonior92,2019-11-14T15:40:01Z,2025-10-27T17:34:16Z,12,https://github.com/pytorch/pytorch/issues/29814
+315110544,6662,Autogenerate code example / tutorial outputs in documentation,open,zou3519,2018-04-17T15:23:03Z,2025-10-27T15:13:59Z,21,https://github.com/pytorch/pytorch/issues/6662

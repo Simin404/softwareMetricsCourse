@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 LOG_FILE = "information_quality.log"
 logging.basicConfig(
     level=logging.INFO,
-    format="%(message)s",  # log pure JSON strings for easy parsing by other tools
+    format="%(message)s",
     handlers=[
         logging.FileHandler(LOG_FILE),
         logging.StreamHandler()
@@ -359,7 +359,7 @@ def main():
     latest_date = get_latest_issue_date(existing)
     since_date = latest_date.isoformat().replace("+00:00", "Z") if latest_date else SINCE_DATE
 
-    log_event("FETCH_NEW_ISSUES", since_date=since_date, existing_count=len(existing))
+    # log_event("FETCH_NEW_ISSUES", since_date=since_date, existing_count=len(existing))
 
     new_issues = fetch_new_issues(since_date, existing_ids)
     append_issues_to_csv(OUTPUT_FILE, new_issues)
